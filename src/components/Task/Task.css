@@ -1,0 +1,51 @@
+.task {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 30px 40px;
+}
+
+.task:last-of-type {
+    margin-bottom: 0;
+}
+
+.task__radiobutton {
+    margin: 0 14px 0 0;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #D9D9D9;
+    outline: none;
+    cursor: pointer;
+}
+
+.task__radiobutton:checked {
+    background-color: #23A3FF;
+}
+
+.task__delete-button {
+    margin: 0 14px 0 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #E85C5C;
+    background-image: url(../../images/delete-button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.task__title {
+    margin: 0;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    cursor: pointer;
+}
+
+.task__title:hover {
+    opacity: 0.7;
+    transition: 0.2s ease-in;
+}

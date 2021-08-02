@@ -1,0 +1,79 @@
+.edit-task-modal {
+    padding: 42px 40px 0 40px;
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    height: 84%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 40px 40px 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(100%);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    z-index: 5;
+}
+
+.edit-task-modal_type_is-open {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.edit-task-modal__textarea {
+    width: 100%;
+    min-height: 50px;
+    resize: none;
+    border-radius: 10px;
+    border: 2px solid #E5E5E5;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.edit-task-modal__textarea:focus {
+    border: 2px solid #23A3FF;
+}
+
+.edit-task-modal__buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+
+.edit-task-modal__button {
+    width: 137px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Gilroy', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.edit-task-modal__button:hover {
+    opacity: 0.7;
+    transition: 0.2s ease-in;
+}
+
+.edit-task-modal__button_type_close {
+    background-color: #F2F2F2;
+    color: #4D4D4D;
+}
+
+.edit-task-modal__button_type_add {
+    background-color: #23A3FF;
+    color: #fff;
+}
