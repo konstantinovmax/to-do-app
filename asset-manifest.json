@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8189fc32.chunk.css",
+    "main.js": "/static/js/main.b6ba56ef.chunk.js",
+    "main.js.map": "/static/js/main.b6ba56ef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.526fc48a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.526fc48a.js.map",
+    "static/js/2.692132b5.chunk.js": "/static/js/2.692132b5.chunk.js",
+    "static/js/2.692132b5.chunk.js.map": "/static/js/2.692132b5.chunk.js.map",
+    "static/js/3.38c5cfbe.chunk.js": "/static/js/3.38c5cfbe.chunk.js",
+    "static/js/3.38c5cfbe.chunk.js.map": "/static/js/3.38c5cfbe.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8189fc32.chunk.css.map": "/static/css/main.8189fc32.chunk.css.map",
+    "static/js/2.692132b5.chunk.js.LICENSE.txt": "/static/js/2.692132b5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Gilroy-Medium.2bc7f5d7.woff",
+    "static/media/AddButton.css": "/static/media/add-button.138a8e0d.svg",
+    "static/media/Task.css": "/static/media/delete-button.058b8b32.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.526fc48a.js",
+    "static/js/2.692132b5.chunk.js",
+    "static/css/main.8189fc32.chunk.css",
+    "static/js/main.b6ba56ef.chunk.js"
+  ]
+}
